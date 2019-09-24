@@ -1,0 +1,18 @@
+npm i express express-handlebars express-session method-override mongoose passport passport-local bcryptjs connect-flash
+
+express => Framework de node poder escribir el servidor de una forma mas sencilla y profesional.
+express-handlebars => Para poder integar un motor de plantillas
+express-session => Es para crear sessiones en el servidor.
+method-override => Se implementa para que el formulario pueda enviar otros methods como Put or Delete
+mongoose => Es un modulo, que permite conectar a MongoDB.
+passport
+passport-local
+bcryptjs => Para cifrar la contraseña convierte en un hash
+connect-flash => Podemos enviar msj entre multiples vistas
+
+
+mkdir config helpers models public routes views
+database.js
+index.js
+
+npm i nodemon -D
