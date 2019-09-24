@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 
-const uris =
-  'mongodb+srv://galbeiroc:Caracol2008@cluster0-jevhb.mongodb.net/test?retryWrites=true&w=majority';
-//const uris = 'mongodb://localhost/notes-db-app'
+const uris = 'mongodb://localhost/notes-db-app';
 mongoose
   .connect(uris, {
     useCreateIndex: true,
